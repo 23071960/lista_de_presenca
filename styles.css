@@ -1,15 +1,15 @@
 /* Estilos para o corpo da página */
-@import url(/Styles/header.css);
-@import url(/Styles/pop_up.css);
-@import url(/Styles/lista.css);
-@import url(/Styles/conteudo.css);
+@import url(styles.css);
+@import url(styles/pop_up.css);
+@import url(styles/lista.css);
+@import url(styles/conteudo.css);
 
 :root{
     font-display:inherit;
 }
 
 body {
-    background-image: url(/imagens/geometric.jpg);
+    background-image: url(imagens/geometric.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
