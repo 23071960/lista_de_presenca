@@ -1,0 +1,30 @@
+/* Estilos para o corpo da página */
+@import url(/Styles/header.css);
+@import url(/Styles/pop_up.css);
+@import url(/Styles/lista.css);
+@import url(/Styles/conteudo.css);
+
+:root{
+    font-display:inherit;
+}
+
+body {
+    background-image: url(/imagens/geometric.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Cor semitransparente (aqui é branco com 50% de transparência) */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+}
+
